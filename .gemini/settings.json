@@ -7,4 +7,16 @@
   "general": {
     "devtools": true
   }
+  
+  {
+  "mcpServers": {
+    "tia-connect": {
+      "type": "sse",
+      "url": "http://localhost:9000/mcp/sse",
+      "headers": {
+        "X-API-Key": "tia_live_ba4dc107094a22272c004d1ef96db566c63e54cdbc9b8b279a6d3562d8a5c76f"
+      }
+    }
+  }
+
 }
